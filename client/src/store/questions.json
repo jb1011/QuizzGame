@@ -1,0 +1,32 @@
+[
+    {
+        "id": 0,
+        "question": "What country has the highest life expectancy?",
+        "propositions": ["Tokyo", "Hong Kong", "Kyoto", "Beijing"],
+        "answer": "Hong Kong"
+    },
+    {
+        "id": 1,
+        "question": "What is the most common surname in the United States?",
+        "propositions": ["Smith", "Parker", "Doe", "Johnson"],
+        "answer": "Smith"
+    },
+    {
+        "id": 2,
+        "question": "Who has won the most total Academy Awards?",
+        "propositions": ["Charles Chaplin", "Katharine Hepburn", "Walt Disney", "Meryl Streep" ],
+        "answer": "Walt Disney"
+    },
+    {
+        "id": 3,
+        "question": "Which planet in the Milky Way is the hottest? ",
+        "propositions": ["Venus", "Mars", "Earth", "Uranus" ],
+        "answer": "Venus"
+    },
+    {
+        "id": 4,
+        "question": "What is the largest Spanish speaking city in the world?",
+        "propositions": ["Los Angeles", "Buenos Aires", "Barcelona", "Mexico City" ],
+        "answer": "Mexico City"
+    }
+]

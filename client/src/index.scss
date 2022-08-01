@@ -1,0 +1,108 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik:wght@500&display=swap');
+
+$primary: #d80032;
+$white: #edf2f4;
+$gray: #8d99ae;
+
+body,
+html {
+  background-color: $white;
+  margin: 0;
+  font-family: 'Rubik', sans-serif;
+}
+
+p {
+  margin: 0.2rem;
+}
+
+div p { 
+  font-weight: 500;
+}
+
+h1 {
+  font-size: 5rem;
+}
+
+h2 {
+  margin: 0;
+  font-size: 3rem;
+}
+
+h3 {
+  font-size: 2rem;
+}
+
+.text-primary {
+  color: $primary;
+}
+
+.center-simple {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+}
+
+.center-simple-col {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+}
+
+.center-card {
+  border: 1px solid $gray;
+  padding: 20px;
+  border-radius: 20px;
+}
+
+.btn {
+  background-color: $primary;
+  padding: 20px 30px 20px 30px;
+  border-radius: 10px;
+  border: none;
+  color: $white;
+  font-family: 'Rubik', sans-serif;
+  text-transform: uppercase;
+  transition: 0.3s;
+  cursor: pointer;
+}
+
+.btn-disabled {
+  background-color: $white;
+  padding: 20px 30px 20px 30px;
+  border-radius: 10px;
+  border: 1px solid $gray;
+  color: $gray;
+  font-family: 'Rubik', sans-serif;
+  text-transform: uppercase;
+  transition: 0.3s;
+}
+
+.btn:hover {
+  color: $white;
+  box-shadow: 0px 0px 10px 3px $primary;
+}
+
+.btn-outline {
+  background-color: $white;
+  border: 1px solid $primary;
+  padding: 20px 30px 20px 30px;
+  border-radius: 10px;
+  color: $primary;
+  font-family: 'Rubik', sans-serif;
+  text-transform: uppercase;
+  transition: 0.3s;
+  cursor: pointer;
+}
+
+.btn-outline:hover {
+  color: $primary;
+  box-shadow: 0px 0px 10px 3px $primary;
+}
+
+.highlight {
+  color: $primary;
+  box-shadow: 0px 0px 10px 3px $primary;
+}
